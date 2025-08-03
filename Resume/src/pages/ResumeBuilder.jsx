@@ -127,7 +127,7 @@ const ResumePreview = React.forwardRef((props, ref) => (
         {resumeData.firstName} {resumeData.lastName}
       </h1>
       <div className="text-xs mt-2">
-        {resumeData.city && resumeData.state && `${resumeData.city}, ${resumeData.state} (Optional) | `}
+        {resumeData.city && resumeData.state && `${resumeData.city}, ${resumeData.state}  | `}
         {resumeData.phone && `${resumeData.phone} | `}
         {resumeData.email}
         <br />
